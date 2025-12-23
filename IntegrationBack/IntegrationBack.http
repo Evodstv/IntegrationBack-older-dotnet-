@@ -1,0 +1,6 @@
+@IntegrationBack_HostAddress = http://localhost:5160
+
+GET {{IntegrationBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
