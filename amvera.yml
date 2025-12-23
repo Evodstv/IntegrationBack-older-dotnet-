@@ -3,10 +3,6 @@ meta:
   toolchain:
     name: dotnet
     version: "8.0"
-build:
-  image: null
 run:
-  image: null
-  buildFileName: null
-  persistenceMount: /data
   containerPort: "80"
+  command: dotnet IntegrationBack/bin/Release/net8.0/IntegrationBack.dll
